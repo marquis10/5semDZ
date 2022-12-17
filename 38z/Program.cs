@@ -1,4 +1,6 @@
-﻿void InputArray(double[] array)
+﻿//Задайте массив вещественных(Дробных) чисел.
+// Найдите разницу между максимальным и минимальным элементами массива.
+void InputArray(double[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {

@@ -1,4 +1,6 @@
-﻿void InputArray(int[] array)
+﻿//Задайте массив заполненный случайными положительными трёхзначными числами.
+//Напишите программу, которая покажет количество чётных чисел
+void InputArray(int[] array)
 {    
     for (int i = 0; i < array.Length; i++)
         array[i] = new Random().Next(99,1000);
